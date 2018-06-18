@@ -1,4 +1,4 @@
-connection: "shopify_data"
+connection: "stitch_looker"
 
 # include all the views #
 include: "*.view"
