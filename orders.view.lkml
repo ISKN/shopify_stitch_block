@@ -598,8 +598,8 @@ view: orders {
   }
   dimension:  shipping_location {
     type: location
-    sql_latitude: round(cast(${shipping_address__latitude} as int),3)  ;;
-    sql_longitude: round(cast(${shipping_address__longitude} as int),3) ;;
+    sql_latitude: ${shipping_address__latitude}  ;;
+    sql_longitude: ${shipping_address__longitude} ;;
   }
 
   dimension: shipping_address__name {
