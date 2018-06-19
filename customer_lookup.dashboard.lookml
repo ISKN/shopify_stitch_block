@@ -70,7 +70,7 @@
     - customers.count desc
     limit: 500
     query_timezone: America/New_York
-    map: usa
+    map: world
     map_projection: ''
     show_view_names: true
     map_plot_mode: points
